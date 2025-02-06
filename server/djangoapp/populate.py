@@ -38,8 +38,8 @@ def initiate():
        "type": "SUV",
        "year": 2023,
        "car_make": car_make_instances[1]},
-      {"name":"E-Class",
-       "type":"SUV",
+      {"name": "E-Class",
+       "type": "SUV",
        "year": 2023,
        "car_make": car_make_instances[1]},
       {"name": "A4",
@@ -77,9 +77,7 @@ def initiate():
       {"name": "Kluger",
        "type": "SUV",
        "year": 2023,
-       "car_make": car_make_instances[4]},
-       # Add more CarModel instances as needed
-    ]
+       "car_make": car_make_instances[4]}]
 
     for data in car_model_data:
         CarModel.objects.create(name=data['name'],
